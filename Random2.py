@@ -311,7 +311,7 @@ def menu_apikey():
   print("");time.sleep(2)
   print("\x1b[1;97m  CHECKING YOUR APROVAL.............                                                ");time.sleep (0.5)
   try:
-    httpCaht = requests.get("https://github.com/Sakibbhai123/premium.py/blob/main/Approval.txt'').text
+    httpCaht = requests.get(''https://github.com/Sakibbhai123/premium.py/blob/main/Approval.txt'').text
     if id in httpCaht:
       print("\033[1;97m   YOUR TOKEN APROVED ðŸ¥€ ");time.sleep(2)
       msg = str(os.geteuid())
